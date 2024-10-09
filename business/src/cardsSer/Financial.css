@@ -1,0 +1,38 @@
+.financial-container {
+    position: relative; /* Establishes a positioning context for absolute children */
+    text-align: center; /* Centers the text if needed */
+    margin-bottom: 50px;
+}
+
+.financ {
+    width: 100%; /* Adjust based on your design */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+.both{
+    position: absolute; /* Positions the text relative to the container */
+    top: 75%; /* Adjust this value as needed */
+    left: 30%; /* Centers horizontally */
+    transform: translate(-40%, -50%); /* Centers the text perfectly */
+    font-size: 4em; /* Adjust font size as needed */
+    background-color: aliceblue;
+    border: 1px solid rgb(253, 253, 253);
+    border-radius: 10px;
+    padding: 30px; /* Add padding for better spacing */
+    max-width: 100%; /* Makes it responsive */
+    box-sizing: border-box;
+    text-align: center;
+}
+.fi{
+    color: rgb(3, 2, 2); /* Change color based on your image */
+    font-size: .4em; /* Adjust font size as needed */
+    text-align: start;
+}
+.fin{
+    color: rgb(245, 7, 7); /* Change color based on your image */
+    font-size: 1em; /* Adjust font size as needed */
+}
+footer{
+    margin-top: 30px;
+}

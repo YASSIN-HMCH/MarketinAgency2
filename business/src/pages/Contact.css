@@ -1,0 +1,11 @@
+.message-box {
+    background-color: #FF0000; /* Cherry Red */
+    padding: 20px;
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center align the text */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Shadow for depth */
+    margin: 20px; /* Space around the box */
+}
+.message-box h2{
+    color: rgb(255, 255, 255);
+}

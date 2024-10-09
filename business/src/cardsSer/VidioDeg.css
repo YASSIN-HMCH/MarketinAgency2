@@ -1,0 +1,18 @@
+.video-w {
+    position: relative;
+    padding-bottom: 45.25%; /* 16:9 Aspect Ratio */
+    height:0;
+    overflow: hidden;
+    width: 100%; /* Set a fixed width for the video */
+    margin: 0 auto; /* Center the video */
+}
+.video-w iframe {
+    position: absolute;
+    top: 25px;
+    left: 100px; /* Align to the left */
+    width: 100%; /* Make iframe full width of the wrapper */
+    height: 100%; /* Make iframe full height of the wrapper */
+    max-width: 85%; /* Optional: limit width to prevent overflow */
+    border-radius: 20px;
+}
+
